@@ -32,7 +32,7 @@ using std::max;
 
 void InitControl(GlobalVariables& gv) 
 {
-   // This code runs before the first servo loop
+   gv.tau =gv.G;
 }
 
 void PreprocessControl(GlobalVariables& gv)
