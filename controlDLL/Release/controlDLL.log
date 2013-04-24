@@ -1,42 +1,39 @@
-﻿Build started 4/23/2013 12:07:06 AM.
-     1>Project "C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\controlDLL\controlDLL.vcxproj" on node 2 (build target(s)).
+﻿Build started 4/24/2013 12:56:02 AM.
+     1>Project "C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\controlDLL\controlDLL.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Release\controlDLL.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\PrLib /I./ /I..\PrLib\legacy_PR_matrix /I..\pthread\include /I..\ /Zi /nologo /W3 /WX- /O2 /Oy- /D USING_XPRINTF /D PR_MISSING_NEWMAT10_LIB /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CONTROLDLL_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt control.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\PrLib /I./ /I..\PrLib\legacy_PR_matrix /I..\pthread\include /I..\ /Zi /nologo /W3 /WX- /O2 /Oy- /D USING_XPRINTF /D PR_MISSING_NEWMAT10_LIB /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CONTROLDLL_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt control.cpp
          control.cpp
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\controlDLL\..\executable\bin\controlDLL.dll) does not match the Linker's OutputFile property value (C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\control.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(controlDLL) does not match the Linker's OutputFile property value (control). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\executable\bin\control.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\lib matrix.lib newmat10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"controlDLL.def" /MANIFEST /ManifestFile:"Release\controlDLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\controlDLL.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\executable\bin\controlDLL.lib" /MACHINE:X86 /DLL Release\control.obj
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\executable\bin\controlDLL.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\lib matrix.lib newmat10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"controlDLL.def" /MANIFEST /ManifestFile:"Release\controlDLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\controlDLL.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\executable\bin\controlDLL.lib" /MACHINE:X86 /DLL Release\control.obj
          Release\stdafx.obj
             Creating library ..\executable\bin\controlDLL.lib and object ..\executable\bin\controlDLL.exp
-     1>controlDLL.exp : warning LNK4070: /OUT:controlDLL.dll directive in .EXP differs from output filename '..\executable\bin\control.dll'; ignoring directive
      1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
-     1>newmat10.lib(BANDMAT.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(BANDMAT.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(EVALUE.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(EVALUE.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(MYEXCEPT.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(MYEXCEPT.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(NEWMAT1.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(NEWMAT1.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(NEWMAT2.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(NEWMAT2.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(NEWMAT3.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(NEWMAT3.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(NEWMAT4.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(NEWMAT4.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(NEWMAT5.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(NEWMAT5.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(NEWMAT6.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(NEWMAT6.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(NEWMAT7.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(NEWMAT7.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(NEWMAT8.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(NEWMAT8.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(NEWMATEX.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(NEWMATEX.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(NEWMATRM.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(NEWMATRM.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(SORT.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(SORT.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(SUBMAT.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(SUBMAT.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-     1>newmat10.lib(SVD.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'newmat10.lib(SVD.obj)' or at 'C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\executable\bin\vc70.pdb'; linking object as if no debug info
-         controlDLL.vcxproj -> C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\controlDLL\..\executable\bin\controlDLL.dll
+     1>newmat10.lib(BANDMAT.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(EVALUE.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(MYEXCEPT.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(NEWMAT1.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(NEWMAT2.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(NEWMAT3.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(NEWMAT4.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(NEWMAT5.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(NEWMAT6.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(NEWMAT7.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(NEWMAT8.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(NEWMATEX.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(NEWMATRM.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(SORT.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(SUBMAT.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>newmat10.lib(SVD.obj) : warning LNK4204: 'C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\executable\bin\vc70.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         controlDLL.vcxproj -> C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\controlDLL\..\executable\bin\controlDLL.dll
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\executable\bin\control.dll;#2" /manifest Release\controlDLL.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\executable\bin\controlDLL.dll;#2" /manifest Release\controlDLL.dll.intermediate.manifest
        FinalizeBuildStatus:
          Deleting file "Release\controlDLL.unsuccessfulbuild".
          Touching "Release\controlDLL.lastbuildstate".
-     1>Done Building Project "C:\Users\Eduardo\Downloads\cs225a_simulator_beta (2)\cs225a simulator beta\controlDLL\controlDLL.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\User\Documents\GitHub\CS225A-Robotics-Simulator\controlDLL\controlDLL.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.98
+Time Elapsed 00:00:05.43

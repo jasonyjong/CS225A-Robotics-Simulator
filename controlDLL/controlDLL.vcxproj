@@ -80,7 +80,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>matrix.lib;newmat10.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)control.dll</OutputFile>
+      <OutputFile>$(OutDir)controlDLL.dll</OutputFile>
       <AdditionalLibraryDirectories>.\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ModuleDefinitionFile>controlDLL.def</ModuleDefinitionFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>

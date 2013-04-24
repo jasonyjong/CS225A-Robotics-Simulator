@@ -32,7 +32,6 @@ using std::max;
 
 void InitControl(GlobalVariables& gv) 
 {
-   gv.tau =gv.G;
 }
 
 void PreprocessControl(GlobalVariables& gv)
@@ -202,6 +201,7 @@ void njmoveControl(GlobalVariables& gv)
 {
    floatControl(gv);
    gv.tau = -gv.kp*(gv.q-gv.qd)-gv.kv*(gv.dq-gv.dqd)+gv.G; //same as njhold but with gravity
+
 }
 
 void jmoveControl(GlobalVariables& gv)
