@@ -1,0 +1,43 @@
+﻿Build started 4/9/2013 5:45:05 PM.
+     1>Project "G:\Stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\Scl_control_wrapper\PrLib\legacy_PR_matrix\matrix02\matrix02.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\matrix02.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\matrix02.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /Zi /nologo /W3 /WX- /Od /Oy- /D PR_MISSING_NEWMAT10_LIB /D WIN32 /D _MBCS /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\PrMatrix.cpp ..\PrMatrix3.cpp ..\PrMatrix6.cpp ..\PrQuaternion.cpp ..\PrTransform.cpp ..\PrVector.cpp ..\PrVector3.cpp ..\PrVector6.cpp ..\Stdafx.cpp ..\Utils.cpp ..\XPrintf.cpp /wd4305 
+         PrMatrix.cpp
+         PrMatrix3.cpp
+         PrMatrix6.cpp
+         PrQuaternion.cpp
+         PrTransform.cpp
+         PrVector.cpp
+         PrVector3.cpp
+         PrVector6.cpp
+         Stdafx.cpp
+         Utils.cpp
+         XPrintf.cpp
+         Generating Code...
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(G:\Stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\Scl_control_wrapper\PrLib\legacy_PR_matrix\matrix02\..\..\bin\Debug\matrix02.lib) does not match the Library's OutputFile property value (G:\Stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\Scl_control_wrapper\PrLib\bin\Debug\matrix.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(matrix02) does not match the Library's OutputFile property value (matrix). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\bin\Debug\matrix.lib" /NOLOGO Debug\PrMatrix.obj
+         Debug\PrMatrix3.obj
+         Debug\PrMatrix6.obj
+         Debug\PrQuaternion.obj
+         Debug\PrTransform.obj
+         Debug\PrVector.obj
+         Debug\PrVector3.obj
+         Debug\PrVector6.obj
+         Debug\Stdafx.obj
+         Debug\Utils.obj
+         Debug\XPrintf.obj
+         matrix02.vcxproj -> G:\Stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\Scl_control_wrapper\PrLib\legacy_PR_matrix\matrix02\..\..\bin\Debug\matrix02.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\matrix02.unsuccessfulbuild".
+         Touching "Debug\matrix02.lastbuildstate".
+     1>Done Building Project "G:\Stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\Scl_control_wrapper\PrLib\legacy_PR_matrix\matrix02\matrix02.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.43

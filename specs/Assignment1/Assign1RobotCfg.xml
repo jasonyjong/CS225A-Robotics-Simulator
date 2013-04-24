@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE LOTUS SYSTEM "lotus.dtd">
+
+<!-- Units are in Std International System -->
+<lotus>
+    <robot name="Assign1Bot"> 
+        <gravity>0.000   0.000   -9.81</gravity> 
+        <spec>Assign1Bot</spec>
+        <file>../../specs/Assignment1/Assign1Robot.xml</file>
+        <root_link>
+            <link_name>ground</link_name>
+            <position_in_parent>0.000   0.000   0.00</position_in_parent> 
+            <orientation_in_parent>0.000  0.000   0.000   1.000</orientation_in_parent>
+            <graphics>
+			        <obj_file>
+                                <name>GraphicObjects/plane.obj</name>
+                                <position_in_parent>0.000000 0.000000 -0.000000</position_in_parent>
+                                <orientation_in_parent>0.000000 0.000000 0.000000 1.000000</orientation_in_parent>
+                                <collision_type>0</collision_type>
+                                <scaling>0.75 0.75 0.75</scaling>
+                    </obj_file>
+					<obj_file>
+				        <name>/Assignment1/graphics/RPPBase.obj</name>
+				        <position_in_parent>0.000000 0.000000 0.000000</position_in_parent>
+				        <orientation_in_parent>0.000000 0.000000 0.000000 1.000000</orientation_in_parent>
+				        <collision_type>0</collision_type>
+      					<scaling>0.001 0.001 0.001</scaling>
+			        </obj_file>
+            </graphics>
+        </root_link>
+    </robot>
+
+    <graphics name="StdView">
+        <camera>
+            <pos>30.0   0.0   1.5</pos>
+            <lookat>0.0   0.0   1.5</lookat>
+            <up>0   0   1</up>
+            <clip>0 40</clip>
+            <background>0 0 0</background>
+        </camera>
+        <light>
+            <pos>2.0   0.0   0.0</pos>
+            <lookat>0.0   0.0   0.5</lookat>
+        </light>
+        <light>
+            <pos>-2.0   0.0   0.0</pos>
+            <lookat>0.0   0.0   0.0</lookat>
+        </light>
+        <background_color>1.0 1.0 1.0</background_color>
+    </graphics>
+
+    <controller name="opc">
+        <type>task</type>
+		<must_use_robot>Assign1Bot</must_use_robot>
+		
+		<task name="CS225RemoteTask">
+			<type>CS225RemoteTask</type>
+			<is_remote>No</is_remote>
+			<motion_vel_tol>0.02</motion_vel_tol>
+			<motion_pos_tol>0.2</motion_pos_tol>
+			<motion_timeout>5</motion_timeout><!-- for the motion in seconds -->
+			<parent_link>end-effector</parent_link>
+            <pos_in_parent>0.00 0.00 0.00</pos_in_parent>
+			<priority>0</priority>
+            <task_dof>6</task_dof>													<!-- DEGREES OF FREEDOM OF THE ROBOT --> 
+            <kp>400</kp>
+            <kv>40</kv>
+            <ki>0</ki>
+            <force_max>60 60 30 10 10 10</force_max>								<!-- MAXIMUM ACTUATOR TORQUE CAPACITY --> 
+            <force_min>-60 -60 -30 -10 -10 -10</force_min>							<!-- MINIMUM ACTUATOR TORQUE CAPACITY -->
+        </task>
+
+    </controller>
+</lotus>

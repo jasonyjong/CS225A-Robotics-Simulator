@@ -1,0 +1,13 @@
+CXX= g++
+CXXFLAGS= -O3 -Wall -pthread # -pg
+DXX=
+
+all: matrix.o libnewmat.a
+
+include Makefile
+
+matrix.o: $(OBJS)
+	$(LD) -r -o $@ $(OBJS) 
+
+libnewmat.a:
+	(cd extensions; make -f nm_gnu.mak)

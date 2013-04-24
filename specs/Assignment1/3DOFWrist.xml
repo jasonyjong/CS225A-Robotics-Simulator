@@ -1,0 +1,68 @@
+	<link>
+		<link_name>wrist-hand</link_name>
+		<position_in_parent>0 0 -0.100000</position_in_parent>
+		<orientation_in_parent>0.7071 0.7071 0 0</orientation_in_parent>
+		<mass>0.820000</mass>
+		<inertia>0.001800 0.001800 0.201300</inertia>
+		<center_of_mass>0.000000 0.000000 -0.019000</center_of_mass>
+		<joint_name>wrist-roll1</joint_name>
+		<parent_link_name>link2</parent_link_name> 									<!-- Modify this! -->
+		<joint_type>rz</joint_type>
+		<joint_limits>-3.141590 3.141590</joint_limits>
+		<default_joint_position>0.000000</default_joint_position>
+		<graphics>
+			<obj_file>
+				<name>Assignment1/graphics/hand_bl.obj</name>
+				<position_in_parent>0.000000 0.000000 0.000000</position_in_parent>
+				<orientation_in_parent>0 0 0 1</orientation_in_parent>
+				<collision_type>0</collision_type>
+				<scaling>1.5 1.5 1.5</scaling>
+			</obj_file>
+		</graphics>
+	</link>
+	
+	<link>
+		<link_name>wrist-finger</link_name>
+		<position_in_parent>0.000000 0.000000 0.000000</position_in_parent>
+		<orientation_in_parent>0 0.7071 0 0.7071</orientation_in_parent>
+		<mass>0.340000</mass>
+		<inertia>0.000300 0.000300 0.179400</inertia>
+		<center_of_mass>0.000000 0.000000 0.000000</center_of_mass>
+		<joint_name>wrist-pitch</joint_name>
+		<parent_link_name>wrist-hand</parent_link_name>
+		<joint_type>rz</joint_type>
+		<joint_limits>-3.141590 3.141590</joint_limits>
+		<default_joint_position>0.000000</default_joint_position>
+		<graphics>
+			<obj_file>
+				<name>Assignment1/graphics/finger_bl.obj</name>
+				<position_in_parent>0.000000 0.000000 0.000000</position_in_parent>
+				<orientation_in_parent>0.000000 0.000000 0.000000 1.000000</orientation_in_parent>
+				<collision_type>0</collision_type>
+				<scaling>1.5 1.5 1.5</scaling>
+			</obj_file>
+		</graphics>
+	</link>
+	
+	<link>
+		<link_name>end-effector</link_name>
+		<position_in_parent>-0.10000 0.000000 0.000000</position_in_parent>
+		<orientation_in_parent>-0.499 0.499 0.499 -0.499</orientation_in_parent>
+		<mass>0.090000</mass>														<!-- Mass of the payload -->
+		<inertia>0.000150 0.000150 0.193040</inertia>
+		<center_of_mass>0.000000 0.000000 0.032000</center_of_mass>
+		<joint_name>wrist-roll2</joint_name>
+		<parent_link_name>wrist-finger</parent_link_name>
+		<joint_type>rz</joint_type>
+		<joint_limits>-3.141590 3.141590</joint_limits>
+		<default_joint_position>0.000000</default_joint_position>
+		<graphics>
+			<obj_file>
+				<name>Assignment1/graphics/shaft2_bl.obj</name>
+				<position_in_parent>0.000000 0.0000 0.000000</position_in_parent>
+				<orientation_in_parent>0 0 0 1</orientation_in_parent>
+				<collision_type>0</collision_type>
+				<scaling>1.0 1.0 1.0</scaling>
+			</obj_file>
+		</graphics>
+	</link>

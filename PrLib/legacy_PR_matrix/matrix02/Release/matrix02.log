@@ -1,0 +1,41 @@
+﻿Build started 4/11/2013 12:42:39 AM.
+     1>Project "G:\Stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\Scl_control_wrapper\PrLib\legacy_PR_matrix\matrix02\matrix02.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\matrix02.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D PR_MISSING_NEWMAT10_LIB /D WIN32 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\PrMatrix.cpp ..\PrMatrix3.cpp ..\PrMatrix6.cpp ..\PrQuaternion.cpp ..\PrTransform.cpp ..\PrVector.cpp ..\PrVector3.cpp ..\PrVector6.cpp ..\Stdafx.cpp ..\Utils.cpp ..\XPrintf.cpp /wd4305 
+         PrMatrix.cpp
+         PrMatrix3.cpp
+         PrMatrix6.cpp
+         PrQuaternion.cpp
+         PrTransform.cpp
+         PrVector.cpp
+         PrVector3.cpp
+         PrVector6.cpp
+         Stdafx.cpp
+         Utils.cpp
+         XPrintf.cpp
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(G:\Stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\Scl_control_wrapper\PrLib\legacy_PR_matrix\matrix02\..\..\bin\Release\matrix02.lib) does not match the Library's OutputFile property value (G:\Stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\Scl_control_wrapper\PrLib\bin\Release\matrix.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(matrix02) does not match the Library's OutputFile property value (matrix). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\bin\Release\matrix.lib" /NOLOGO Release\PrMatrix.obj
+         Release\PrMatrix3.obj
+         Release\PrMatrix6.obj
+         Release\PrQuaternion.obj
+         Release\PrTransform.obj
+         Release\PrVector.obj
+         Release\PrVector3.obj
+         Release\PrVector6.obj
+         Release\Stdafx.obj
+         Release\Utils.obj
+         Release\XPrintf.obj
+         XPrintf.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+         matrix02.vcxproj -> G:\Stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\Scl_control_wrapper\PrLib\legacy_PR_matrix\matrix02\..\..\bin\Release\matrix02.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\matrix02.unsuccessfulbuild".
+         Touching "Release\matrix02.lastbuildstate".
+     1>Done Building Project "G:\Stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\Scl_control_wrapper\PrLib\legacy_PR_matrix\matrix02\matrix02.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.48

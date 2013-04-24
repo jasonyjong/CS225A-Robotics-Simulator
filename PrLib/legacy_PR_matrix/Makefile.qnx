@@ -1,0 +1,14 @@
+CXX= QCC
+CXXFLAGS= -O
+ARFLAGS= -r
+DXX= -DPR_QNX
+
+all : libmatrix.a libnewmat.a
+
+include Makefile
+
+libmatrix.a: $(OBJS)
+	$(AR) $(ARFLAGS) $@ $(OBJS)
+
+libnewmat.a: 
+	(cd extensions; make -f nm_qnx.mak)

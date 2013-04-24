@@ -1,0 +1,67 @@
+﻿Build started 3/21/2013 11:47:12 PM.
+     1>Project "G:\Stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\Scl_control_wrapper\PrLib\legacy_PR_matrix\matrix02.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "..\bin\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\matrix02.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\utility /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D SIM /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PrMatrix.cpp PrMatrix3.cpp PrMatrix6.cpp PrQuaternion.cpp PrTransform.cpp PrVector.cpp PrVector3.cpp PrVector6.cpp Stdafx.cpp /wd4305 
+         PrMatrix.cpp
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(243): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(244): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(245): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(246): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>PrMatrix.cpp(847): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>PrMatrix.cpp(848): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>PrMatrix.cpp(849): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>PrMatrix.cpp(850): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>PrMatrix.cpp(854): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>PrMatrix.cpp(882): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>PrMatrix.cpp(883): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>PrMatrix.cpp(884): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>PrMatrix.cpp(1240): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>PrMatrix.cpp(1266): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>PrMatrix.cpp(1284): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>PrMatrix.cpp(1308): error C2653: 'NEWMAT' : is not a class or namespace name
+         PrMatrix3.cpp
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(243): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(244): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(245): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(246): error C2653: 'NEWMAT' : is not a class or namespace name
+         PrMatrix6.cpp
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(243): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(244): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(245): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(246): error C2653: 'NEWMAT' : is not a class or namespace name
+         PrQuaternion.cpp
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(243): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(244): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(245): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(246): error C2653: 'NEWMAT' : is not a class or namespace name
+         PrTransform.cpp
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(243): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(244): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(245): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(246): error C2653: 'NEWMAT' : is not a class or namespace name
+         PrVector.cpp
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(243): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(244): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(245): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(246): error C2653: 'NEWMAT' : is not a class or namespace name
+         PrVector3.cpp
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(243): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(244): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(245): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(246): error C2653: 'NEWMAT' : is not a class or namespace name
+         PrVector6.cpp
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(243): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(244): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(245): error C2653: 'NEWMAT' : is not a class or namespace name
+     1>g:\stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\scl_control_wrapper\prlib\legacy_pr_matrix\PrMatrix.h(246): error C2653: 'NEWMAT' : is not a class or namespace name
+         Stdafx.cpp
+         Generating Code...
+     1>Done Building Project "G:\Stan\scl-manips-group.git-new_eigen\applications-windows\scl_cs225_ctrl\Scl_control_wrapper\PrLib\legacy_PR_matrix\matrix02.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:34.67
